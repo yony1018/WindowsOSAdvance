@@ -24,6 +24,47 @@
 >
 > 三个地址框全填任意网址	如: www.baidu.com
 
+### 右键菜单添加命令行打开程序
+
+> 参考：[(49条消息) Windows10右键添加“在此处打开命令窗口”_会意的博客-CSDN博客_在此处打开命令窗口](https://blog.csdn.net/mooneve/article/details/78821843)
+>
+> 创建并运行 opencmdhere.reg 文件，内容如下
+>
+> ```
+> Windows Registry Editor Version 5.00
+> 
+> [HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere]
+> @="OpenWithCMD"
+> "Icon"="cmd.exe"
+> 
+> [HKEY_CLASSES_ROOT\Directory\shell\OpenCmdHere\command]
+> @="cmd.exe /s /k pushd \"%V\""
+> 
+> [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere]
+> @="OpenWithCMD"
+> "Icon"="cmd.exe"
+> 
+> [HKEY_CLASSES_ROOT\Directory\Background\shell\OpenCmdHere\command]
+> @="cmd.exe /s /k pushd \"%V\""
+> 
+> [HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHere]
+> @="OpenWithCMD"
+> "Icon"="cmd.exe"
+> 
+> [HKEY_CLASSES_ROOT\Drive\shell\OpenCmdHere\command]
+> @="cmd.exe /s /k pushd \"%V\""
+> 
+> [HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHere]
+> @="OpenWithCMD"
+> "Icon"="cmd.exe"
+> 
+> [HKEY_CLASSES_ROOT\LibraryFolder\background\shell\OpenCmdHere\command]
+> @="cmd.exe /s /k pushd \"%V\""
+> 
+> ```
+>
+> 
+
 ## ToolS
 
 > Windows有许多超级好用的第三方/官方工具
