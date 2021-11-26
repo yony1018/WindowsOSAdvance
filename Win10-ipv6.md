@@ -38,3 +38,23 @@ netsh interface ipv6 reset
 >https://zhuanlan.zhihu.com/p/25373553
 >
 >https://bbs.pcbeta.com/forum.php?mod=viewthread&tid=1842849&ordertype=1
+
+## 11.26更新-好消息
+
+> 事情是这样,我大概清楚ipv6坏掉的问题出在winUpdate上
+>
+> - 我的虚拟机手贱Upgrade了Win11    ~~尝鲜一时爽,bug火葬场~~
+> - 以及我Update了主力机20H2
+>
+> 两者都会在半小时后自动断开ipv6
+>
+> 并且20H2Upgrade21H2后仍无效
+>
+> ***
+>
+> - 虚拟机还原回了Win10-20H2->ipv6有效
+>
+> - 但奇怪的是,21H2下我使用我的iPhone有线共享我的热点->ipv6有效
+>
+> > 可能是网卡驱动问题?
+
