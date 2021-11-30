@@ -63,7 +63,18 @@
 > 
 > ```
 >
-> 
+
+### SuperCMD
+
+> [通过 Win + R 默认以管理员身份打开 cmd_草根「幻想家」Blog-CSDN博客](https://blog.csdn.net/qq_42765363/article/details/115214222)
+>
+> 创建`C:\Windows\System32\cmd.exe`的快捷方式
+>
+> 放到 `C:\Windows` 目录下
+>
+> 连后缀一起改为 `scmd`，调整快捷方式为管理员运行
+>
+> 在Win+R中输入scmd -> SuperCMD
 
 ## ToolS
 
