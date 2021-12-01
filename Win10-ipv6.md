@@ -1,4 +1,4 @@
-# win10-ipv6
+# win10-ipv6-Issue
 
 > Win10下配置Shadowsocks后会每半小时ipv6断开的问题
 > 未解决

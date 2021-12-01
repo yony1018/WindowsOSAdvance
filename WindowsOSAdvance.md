@@ -76,6 +76,12 @@
 >
 > 在Win+R中输入scmd -> SuperCMD
 
+## ShortCuts
+
+> `Alt+Space back` 打开当前激活窗口的窗口操作栏(出现在左上角)
+>
+> `Alt+Space back -> C` 关闭当前窗口
+
 ## ToolS
 
 > Windows有许多超级好用的第三方/官方工具
