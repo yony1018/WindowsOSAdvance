@@ -76,6 +76,10 @@
 >
 > 在Win+R中输入scmd -> SuperCMD
 
+### Alt+Tab任务切换窗口不显示多个Edge页面
+
+> 设置->系统->多任务处理->Alt+Tab
+
 ## ShortCuts
 
 > `Alt+Space back` 打开当前激活窗口的窗口操作栏(出现在左上角)
