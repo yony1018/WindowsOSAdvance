@@ -272,3 +272,10 @@
 
 ### PotPlayer
 
+## Issues
+
+
+
+> [windows10-64系统调节亮度选项消失，无法调节亮度 - Microsoft Community](https://answers.microsoft.com/zh-hans/windows/forum/all/windows10/3d06e096-df05-4e1d-b314-a3b27e977e20)
+>
+> 把向日葵安装的监控器驱动卸载
