@@ -86,6 +86,22 @@
 >
 > `Alt+Space back -> C` 关闭当前窗口
 
+## Termianl
+
+> 这里给出一些实用命令行指令
+>
+> Win+R打开运行，输入cmd进入命令行
+>
+> 或是Win+X->A，进入WinPowershell
+
+### 电池报告
+
+> `powercfg /batteryreport`
+>
+> 生成需要一定时间
+>
+> 生成后会显示生成HTML报告的路径
+
 ## ToolS
 
 > Windows有许多超级好用的第三方/官方工具
